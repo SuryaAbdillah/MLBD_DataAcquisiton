@@ -1,0 +1,61 @@
+,example_1,example_2,example_3
+timestamp_utc,2015-07-01 08:00:00+00:00,2015-07-05 12:00:00+00:00,2015-08-12 00:00:00+00:00
+Region,CAL,CAL,CAL
+data_date,2015-07-01 00:00:00,2015-07-05 00:00:00,2015-08-11 00:00:00
+region_demand_mw,38210.0,27357.0,43618.0
+region_demand_forecast_mw,35264.0,27249.0,45529.0
+num_ba,5,5,5
+num_rows,5,5,5
+num_available_ba,5,5,5
+num_missing_ba,0,0,0
+year,2015,2015,2015
+month,7,7,8
+hour,8,12,0
+day_of_week,2,6,2
+is_negative_demand,False,False,False
+target_region_demand_mw,38210.0,27357.0,43618.0
+is_target_imputed,No,No,No
+imputation_method,observed,observed,observed
+temperature_2m,23.5,16.5,28.6
+relative_humidity_2m,65,77,32
+wind_speed_10m,4.7,4.7,11.8
+precipitation,0.0,0.0,0.0
+region_name,California,California,California
+weather_city,Los Angeles,Los Angeles,Los Angeles
+weather_state,California,California,California
+latitude,34.0522,34.0522,34.0522
+longitude,-118.2437,-118.2437,-118.2437
+timestamp_local,2015-07-01 01:00:00-07:00,2015-07-05 05:00:00-07:00,2015-08-11 17:00:00-07:00
+local_date,2015-07-01 00:00:00,2015-07-05 00:00:00,2015-08-11 00:00:00
+local_year,2015,2015,2015
+local_month,7,7,8
+local_day,1,5,11
+local_hour,1,5,17
+local_day_of_week,2,6,1
+local_day_name,Wednesday,Sunday,Tuesday
+is_weekend,No,Yes,No
+hour_sin,0.2588190451025207,0.9659258262890684,-0.9659258262890684
+hour_cos,0.9659258262890684,0.2588190451025207,-0.2588190451025206
+day_of_week_sin,0.9749279121818236,-0.7818314824680299,0.7818314824680298
+day_of_week_cos,-0.2225209339563143,0.6234898018587334,0.6234898018587336
+month_sin,-0.4999999999999997,-0.4999999999999997,-0.8660254037844385
+month_cos,-0.8660254037844388,-0.8660254037844388,-0.5000000000000004
+season,summer,summer,summer
+day_of_year,182,186,223
+days_in_year,365,365,365
+day_of_year_sin,0.0086069968886886,-0.0602132773657927,-0.6420547132365636
+day_of_year_cos,-0.9999629591162656,-0.9981855344718586,-0.7666588193001592
+is_holiday,No,No,No
+is_day_before_holiday,No,No,No
+is_day_after_holiday,No,Yes,No
+is_holiday_period,No,Yes,No
+cooling_degree,5.199999999999999,0.0,10.3
+heating_degree,0.0,1.8000000000000007,0.0
+temp_squared,552.25,272.25,817.96
+lag_1h,,27905.0,42785.0
+lag_24h,,28404.0,43256.0
+lag_168h,,,45689.0
+rolling_mean_24h,,34400.625,36081.04166666666
+rolling_mean_168h,,,36314.27976190476
+rolling_std_24h,,5010.781929890082,5685.115887153242
+rolling_std_168h,,,6238.942476146596

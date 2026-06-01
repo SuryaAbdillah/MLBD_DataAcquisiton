@@ -1,0 +1,5 @@
+,Region,is_target_imputed,imputation_method,region_name,weather_city,weather_state,local_day_name,is_weekend,season,is_holiday,is_day_before_holiday,is_day_after_holiday,is_holiday_period
+count,95088,95088,95088,95088,95088,95088,95088,95088,95088,95088,95088,95088,95088
+unique,1,2,3,1,1,1,7,2,4,2,2,2,2
+top,CAL,No,observed,California,Los Angeles,California,Wednesday,No,fall,No,No,No,No
+freq,95088,94867,74324,95088,95088,95088,13584,67920,24035,92016,92016,92016,86544
