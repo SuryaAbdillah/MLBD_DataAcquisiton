@@ -1,0 +1,5 @@
+variable,importance,variable_type,normalized_importance
+encoder_length,9688.131,static,0.8238910906418581
+model_target_mw_scale,762.9289,static,0.06488045297065675
+Region,660.8126,static,0.056196354055289714
+model_target_mw_center,647.1222,static,0.05503210233219546

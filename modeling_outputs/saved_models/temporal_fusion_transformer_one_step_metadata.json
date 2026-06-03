@@ -1,0 +1,37 @@
+{
+    "model_name": "Temporal Fusion Transformer One-Step",
+    "model_type": "TemporalFusionTransformer",
+    "encoder_length_hours": 168,
+    "prediction_length_hours": 1,
+    "target_column": "model_target_mw",
+    "train_target_source": "target_region_demand_mw",
+    "validation_test_target_source": "region_demand_mw",
+    "known_real_features": [
+        "time_idx",
+        "temperature_2m",
+        "relative_humidity_2m",
+        "wind_speed_10m",
+        "precipitation",
+        "cooling_degree",
+        "heating_degree",
+        "temp_squared",
+        "hour_sin",
+        "hour_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_year_sin",
+        "day_of_year_cos",
+        "is_weekend",
+        "is_holiday",
+        "is_day_before_holiday",
+        "is_day_after_holiday",
+        "is_holiday_period"
+    ],
+    "static_categoricals": [
+        "Region"
+    ],
+    "prediction_unit": "MW",
+    "notes": "TFT uses a 168-hour encoder window and predicts one hour ahead for comparability with tabular models."
+}

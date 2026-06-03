@@ -1,0 +1,54 @@
+{
+    "case_id": 3,
+    "experiment": "TFT_No_Calendar",
+    "description": "Remove calendar and seasonality features.",
+    "data_path": "merge_outputs/all_features_all_timerange.csv",
+    "max_encoder_length": 168,
+    "max_prediction_length": 1,
+    "target_column": "model_target_mw",
+    "group_ids": [
+        "Region"
+    ],
+    "static_categoricals": [
+        "Region"
+    ],
+    "time_varying_known_reals": [
+        "time_idx",
+        "temperature_2m",
+        "relative_humidity_2m",
+        "wind_speed_10m",
+        "precipitation",
+        "cooling_degree",
+        "heating_degree",
+        "temp_squared",
+        "is_weekend",
+        "is_holiday",
+        "is_day_before_holiday",
+        "is_day_after_holiday",
+        "is_holiday_period"
+    ],
+    "time_varying_unknown_reals": [
+        "model_target_mw"
+    ],
+    "target_normalizer": "GroupNormalizer(groups=['Region'], transformation='softplus')",
+    "tft_params": {
+        "learning_rate": "0.03",
+        "hidden_size": "16",
+        "attention_head_size": "2",
+        "dropout": "0.1",
+        "hidden_continuous_size": "8",
+        "loss": "RMSE()",
+        "optimizer": "adam",
+        "reduce_on_plateau_patience": "3"
+    },
+    "batch_size": 128,
+    "max_epochs": 20,
+    "random_state": 42,
+    "train_end_date": "2024-01-01",
+    "valid_end_date": "2025-01-01",
+    "test_end_date": "2026-05-07",
+    "checkpoint_path": "modeling_outputs/tft_ablation/saved_models\\TFT_No_Calendar.ckpt",
+    "result_path": "modeling_outputs/tft_ablation\\TFT_No_Calendar_results.csv",
+    "prediction_path": "modeling_outputs/tft_ablation\\TFT_No_Calendar_test_predictions.csv",
+    "elapsed_seconds": 6234.973739385605
+}

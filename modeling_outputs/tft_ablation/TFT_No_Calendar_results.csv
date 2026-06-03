@@ -1,0 +1,3 @@
+case_id,model,split,n_rows,n_known_real_features,known_real_features,elapsed_seconds,MAE,RMSE,MAPE,R2
+3,TFT_No_Calendar,validation,8784,13,"time_idx, temperature_2m, relative_humidity_2m, wind_speed_10m, precipitation, cooling_degree, heating_degree, temp_squared, is_weekend, is_holiday, is_day_before_holiday, is_day_after_holiday, is_holiday_period",6234.973739385605,636.56787109375,914.1479297684812,2.1843214,0.9794924259185791
+3,TFT_No_Calendar,test,11759,13,"time_idx, temperature_2m, relative_humidity_2m, wind_speed_10m, precipitation, cooling_degree, heating_degree, temp_squared, is_weekend, is_holiday, is_day_before_holiday, is_day_after_holiday, is_holiday_period",6234.973739385605,719.4722290039062,1274.438307647726,2.7960315,0.9419965744018555
